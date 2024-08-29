@@ -8,9 +8,9 @@ namespace ConsoleAppDay5
 {
     public class Class1
     {
-        public string GetDate()
+        public DateTime GetDate()
         {
-            return DateTime.Now.ToString();
+            return DateTime.Now;
         }
     }
 }
