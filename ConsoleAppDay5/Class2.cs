@@ -10,10 +10,10 @@ namespace ConsoleAppDay5
     {
         public class Login
         {
-            public event Action<string> LoginEvent;
+            public event Action<string,string> LoginEvent;
             public void Fire()
             {
-                LoginEvent("Ram");
+                LoginEvent("Ram","123");
             }
         }
     }
